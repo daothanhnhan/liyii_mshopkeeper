@@ -1,0 +1,366 @@
+@media screen and (max-width: 1200px) {
+  .gb-product-top h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gb-product-show .owl-nav .owl-next:before {
+    right: 0px;
+    position: absolute;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .gb-product-top h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gb-product-top h2 {
+    font-size: 23px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .img {
+    width: 100%;
+    float: left;
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .text b, .text span {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .top-menu {
+    width: 100%;
+    height: 95px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .top-menu {
+    width: 100%;
+    height: 127px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top-menu {
+    width: 100%;
+    height: 113px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .thongtin {
+    width: 100%;
+    top: -23px;
+    left: 95px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .thongtin {
+    width: 100%;
+    top: -23px;
+    left: 13px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .gb-header-between .gb-header-between-logo_cuanhom {
+    width: 220px;
+  }
+
+  .lgHeaderRSP {
+    width: 25%;
+    float: left;
+  }
+
+  .lgHeaderRSP img {
+    width: 20%;
+    position: absolute;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gb-header-between .gb-header-between-logo_cuanhom {
+    width: 220px;
+  }
+
+  .lgHeaderRSP {
+    width: 25%;
+    float: left;
+  }
+
+  .lgHeaderRSP img {
+    width: 22%;
+    top: 20px;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 992px) {
+  .email {
+    width: 77%;
+    float: left;
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .email1 {
+    width: 16%;
+    float: left;
+    padding: 15px 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .http {
+    width: 100%;
+    float: left;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer-main-content_xdshop-element {
+    width: 40%;
+    float: left;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .http {
+    width: 100%;
+    float: left;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .input-group .form-control:first-child {
+    width: 100%;
+    float: left;
+    /*padding: 0px 157px;*/
+  }
+}
+@media screen and (max-width: 992px) {
+  .http {
+    width: 100%;
+    float: left;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 768px) {
+  .http {
+    width: 100%;
+    float: left;
+    visibility: hidden;
+  }
+}
+/*character*/
+@media screen and (max-width: 768px) {
+  .gb-characteristics_cuanhom .gb-characteristics_cuanhom-item .block-top-content_cuanhom .text-block_cuanhom h3 {
+    font-size: 12px;
+    padding: 0px 8px;
+    text-align: center;
+    padding: 0px 32px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gb-characteristics_cuanhom .gb-characteristics_cuanhom-item .block-top-content_cuanhom .text-block_cuanhom p {
+    font-size: 12px;
+    padding: 0px 0px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gb-characteristics_cuanhom .gb-characteristics_cuanhom-item .block-top-content_cuanhom .icon-block_cuanhom img{
+    width: 100%;
+    float: left;
+    
+  }
+}
+/*san-pham*/
+@media screen and (max-width: 768px) {
+  .gb-product-item_cuanhom-img .boxImgProductHome {
+    width: 100%;
+    float: left;
+    height: 144px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gb-maysanxuat_cuanhom .gb-product-item_cuanhom .gb-product-item_cuanhom-text h2 a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .price_product {
+    font-size: 12px;
+    padding-top: 2px; 
+  }
+}
+@media screen and (max-width: 768px) {
+  .old_price {
+    font-size: 11px;
+  }
+}
+/*chi tiết sản phẩm*/
+@media screen and (max-width: 768px) {
+  .span-tab2 a {
+    width: 100%;
+    float: left;
+    font-size: small;
+  }
+}
+@media screen and (max-width: 768px) {
+  .name_pro {
+    width: 100%;
+    float: left;
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sub_title strong {
+    width: 100%;
+    float: left;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sub_title  {
+    width: 100%;
+    float: left;
+    padding: 1px 3px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .titleSelectSize {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .btn_addCart {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    padding: 9px 36px;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .the img {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    padding: 6px 0px;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .glyphicon1 {
+    width: 100%;
+    float: left;
+    font-size: 13px;
+    padding: 6px 0px;
+
+  }
+}
+/*footer*/
+@media screen and (max-width: 768px) {
+  .titleColFooter {
+    font-size: 14px;
+    padding: 0px 0px;
+   
+  }
+}
+@media screen and (max-width: 768px) {
+  .widget {
+    font-size: 12px;
+    padding: 0px 0px;
+   
+  }
+}
+@media screen and (max-width: 768px) {
+  .coverColFooter li a {
+    font-size: 14px;
+    padding: 0px 0px;
+   
+  }
+}
+
+/*header-top*/
+@media screen and (max-width: 768px) {
+  .gb-header-cuanhom .gb-top-header_cuanhom .gb-top-header_cuanhom-left ul li { 
+    font-size: 10px;
+    padding: -1px 0px;
+   
+  }
+}
+@media screen and (max-width: 768px) {
+  .link_top_right2 { 
+    font-size: 9px;
+    padding: -1px 0px;
+   
+  }
+}
+/*Khuyen-mai*/
+@media screen and (max-width: 1200px) {
+  .Khuyen-mai>p { 
+    margin-top: 20px;
+    padding: 0px 0px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .Khuyen-mai>p { 
+    margin-top: 20px;
+    padding: 0px 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Khuyen-mai>p { 
+    margin-top: 39px;
+    padding: 0px 0px;
+    font-size: 14px;
+   
+  }
+}
+@media screen and (max-width: 992px) {
+  .list_top_right { 
+    position: absolute;
+    width: 100%;
+    top: 74px;
+    right: 73px;;
+  }
+}
+@media screen and (max-width: 768px) {
+  .list_top_right { 
+    position: absolute;
+    width: 100%;
+    top: 74px;
+    right: 30px;;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .owl-theme .owl-nav { 
+    visibility: hidden;
+  }
+}

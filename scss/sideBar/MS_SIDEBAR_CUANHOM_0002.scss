@@ -1,0 +1,32 @@
+.gb-hotrotructuyen-sidebar-cuanhom{
+  margin-bottom: 30px;
+  .widget-title-sidebar-cuanhom{
+    position: relative;
+    font-weight: 700;
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.35;
+    text-transform:  uppercase;
+    border-bottom: 2px solid #ffc000;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    &:before{
+      content: "";
+      width: 80px;
+      border-top: 2px solid #E52F2F;
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+    }
+  }
+  ul{
+    li{
+      font-size: 16px;
+      line-height: 24px;
+      color: #5f6162;
+      font-weight: 300;
+      position: relative;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.gb-page-sanpham_cuanhom{
+  padding: 50px 0;
+  .gb-product-item_cuanhom{
+    border: solid thin #ebebeb;
+    margin-bottom: 30px;
+    .gb-product-item_cuanhom-img{
+      height: 130px;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height:  auto;
+      }
+    }
+    .gb-product-item_cuanhom-text{
+      padding: 10px;
+      h2{
+        a{
+          display:  block;
+          font-size: 14px;
+          line-height: 24px;
+          color: #5f6162;
+          font-weight: 500;
+          position: relative;
+        }
+      }
+      p{
+        display:  block;
+        font-size: 14px;
+        line-height: 24px;
+        color: #5f6162;
+        font-weight: 300;
+        position: relative;
+        margin: 10px 0;
+      }
+      .hotline_cuanhom{
+        font-size: 20px;
+        font-weight: 600;
+        color: $color-main-cuanhom;
+      }
+    }
+  }
+}

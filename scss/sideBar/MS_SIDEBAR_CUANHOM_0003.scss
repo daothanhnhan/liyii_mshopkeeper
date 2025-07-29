@@ -1,0 +1,106 @@
+.gb-recenpost-sidebar-cuanhom{
+  .widget-title-sidebar-cuanhom{
+    position: relative;
+    font-weight: 700;
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.35;
+    text-transform:  uppercase;
+    border-bottom: 2px solid #ffc000;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    &:before{
+      content: "";
+      width: 80px;
+      border-top: 2px solid #E52F2F;
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+    }
+  }
+  .gb-news-blog_cuanhom-item{
+    margin-bottom: 30px;
+    .gb-news-blog_cuanhom-item-img{
+      position: relative;
+      z-index: 5;
+      overflow: hidden;
+      height: 150px;
+      @media screen and (max-width: 767px) {
+        height:  auto;
+      }
+      img{
+        width: 100%;
+        transition: all 0.5s;
+      }
+      &:hover{
+        img{
+          transform: scale(1.1);
+          transition: all 0.5s;
+        }
+      }
+      .caption-large{
+        position: absolute;
+        bottom: 20px;
+        left:20px;
+        background-color: #ffffff;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
+        min-width: 115px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: bold;
+        color: #777777;
+      }
+    }
+    .gb-news-blog_cuanhom-item-text{
+      .gb-news-blog_cuanhom-item-title{
+        margin: 10px 0;
+        h3{
+          a{
+            display:  block;
+            font-size: 13px;
+            text-align: left;
+            color: #222222;
+            &:hover{
+              color: $color-main-cuanhom;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .gb-news-blog_cuanhom-item-text-des{
+        p{
+          font-size: 13px;
+          line-height: 22px;
+          text-align: left;
+          color: #7b7b7b;
+        }
+      }
+    }
+    .gb-news-blog_cuanhom-item-button{
+      margin-top: 10px;
+      .btn {
+        border-radius: 0;
+      }
+      .gb-btn-readmore {
+        background: $color-main-cuanhom;
+        color: white;
+        font-size: 14px;
+        padding-left: 30px;
+        padding-right: 30px;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        &:hover{
+          background-color: white;
+          color: $color-main-cuanhom;
+          border: 1px solid $color-main-cuanhom;
+        }
+      }
+    }
+  }
+}

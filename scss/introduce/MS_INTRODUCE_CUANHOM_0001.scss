@@ -1,0 +1,40 @@
+.gb-introvechungtoi_rem{
+  padding:50px 0;
+  background: #f1f1f1;
+  .gb-introvechungtoi_rem-left{
+    h2{
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+    .gb-divider {
+      border-color: $color-main1-cuanhom;
+      margin: 15px 0;
+    }
+    p{
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .gb-introvechungtoi_rem-doctiep{
+      background: $color-main1-cuanhom;
+      display:  inline-block;
+      min-width: 100px;
+      padding: 10px 0;
+      color: $color-white;
+      text-align: center;
+      text-transform: uppercase;
+      border: 1px solid $color-main1-cuanhom;
+      transition:  all 0.5s;
+      margin-top: 30px;
+      &:hover{
+        color: $color-main1-cuanhom;
+        background:  transparent;
+      }
+    }
+  }
+  .gb-introvechungtoi_rem-right{
+    img{
+      width: 100%;
+      height:  auto;
+    }
+  }
+}

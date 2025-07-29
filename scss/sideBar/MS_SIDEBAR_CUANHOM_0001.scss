@@ -1,0 +1,103 @@
+.gb-danhmucsanpham_cuanhom{
+  margin-bottom: 30px;
+  .widget-title-sidebar-cuanhom{
+    position: relative;
+    font-weight: 700;
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.35;
+    text-transform:  uppercase;
+    border-bottom: 2px solid #ffc000;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    &:before{
+      content: "";
+      width: 80px;
+      border-top: 2px solid #E52F2F;
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+    }
+  }
+  ul{
+    li{
+      a{
+        font-size: 13px;
+        line-height: 24px;
+        color: #5f6162;
+        font-weight: 500;
+        position: relative;
+      }
+    }
+  }
+  .accordion-default{
+    .accordion-content {
+      display: block;
+      padding-left: 20px;
+      li{
+        a{
+          display:  block;
+          font-size: 13px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 30px;
+          letter-spacing: normal;
+          text-align: left;
+          color: #666666;
+          transition:  all  0.5s;
+          &:hover{
+            padding-left: 10px;
+            color: $color-main-cuanhom;
+          }
+          i{
+            color: $color-main-cuanhom;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+    .accordion-toggle {
+      position: relative;
+      cursor: pointer;
+      margin: 0;
+      padding: 8px;
+    }
+    .accordion-toggle.active:after{
+      content:"\f067";
+      position: absolute;
+      right: 0;
+      top: 4px;
+      font-size: 14px;
+      font-family: FontAwesome;
+      color: #5f6162;
+      font-weight: normal;
+      width: 30px;
+      height: 30px;
+      //border: 1px solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      border-radius: 3px;
+    }
+    .accordion-toggle:before{
+      content: "\f068";
+      position: absolute;
+      right: 0;
+      top: 4px;
+      font-size: 14px;
+      font-weight: normal;
+      font-family: FontAwesome;
+      color: #5f6162;
+      width: 30px;
+      height: 30px;
+      //border: 1px solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      border-radius: 3px;
+    }
+  }
+}

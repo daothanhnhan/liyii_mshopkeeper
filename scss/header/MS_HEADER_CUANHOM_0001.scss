@@ -1,0 +1,58 @@
+.gb-header-cuanhom{
+  .gb-top-header_cuanhom{
+    background: linear-gradient(120deg,#E52F2F 50%,#383838 50%);
+    .gb-top-header_cuanhom-left{
+      padding-left: 20px;
+      ul{
+        li{
+          display: inline-block;
+          padding: 10px 0;
+          &:last-child{
+            a{
+              border-right:  none;
+            }
+          }
+          a{
+            display: block;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #fff;
+            border-right: 1px solid $color-white;
+            padding: 0 10px;
+            text-transform:  uppercase;
+          }
+
+        }
+      }
+    }
+    .gb-top-header_cuanhom-right{
+      text-align: right;
+      padding-right: 20px;
+      @media screen and (max-width:  767px) {
+        display:  none;
+      }
+      ul{
+        li{
+          display: inline-block;
+          font-size: 16px;
+          line-height: 1.5;
+          color: #fff;
+          padding: 5px;
+          i{
+            width: 30px;
+            height:  30px;
+            border:  1px solid $color-white;
+            border-radius: 50%;
+            display:  inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+  .gb-header-bottom_cuanhom{
+    background: $color-main-cuanhom;
+  }
+}

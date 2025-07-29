@@ -1,0 +1,60 @@
+.gb-home-product-relate{
+  .gb-home-product-relate_cuanhom_title{
+    position: relative;
+    font-weight: 700;
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.35;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffc000;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    &:after{
+      content: "";
+      width: 80px;
+      border-top: 2px solid #E52F2F;
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+    }
+  }
+  .gb-product-item_cuanhom{
+    border: solid thin #ebebeb;
+    margin-bottom: 30px;
+    .gb-product-item_cuanhom-img{
+      height: 130px;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height:  auto;
+      }
+    }
+    .gb-product-item_cuanhom-text{
+      padding: 10px;
+      h2{
+        a{
+          display:  block;
+          font-size: 14px;
+          line-height: 24px;
+          color: #5f6162;
+          font-weight: 500;
+          position: relative;
+        }
+      }
+      p{
+        display:  block;
+        font-size: 14px;
+        line-height: 24px;
+        color: #5f6162;
+        font-weight: 300;
+        position: relative;
+        margin: 10px 0;
+      }
+      .hotline_cuanhom{
+        font-size: 20px;
+        font-weight: 600;
+        color: $color-main-cuanhom;
+      }
+    }
+  }
+}
